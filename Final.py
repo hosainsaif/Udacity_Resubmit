@@ -78,13 +78,13 @@ def load_data(city, month, day):
 
 #The follwing function shows the most common month, day and hour for bike usage.
 def time_stats(df):
-    # TO DO: display the most common month
+
     mostc_month = df["month"].mode()
     print("Common month in numbers is:\n",mostc_month)
-    # TO DO: display the most common day of week
+
     mostc_day = df["day"].mode()
     print("Common day in numbers :\n",mostc_day)
-    # TO DO: display the most common start hour
+
     mostc_hour= df["Start Time"].dt.hour.mode()
     print("Common hour is:\n",mostc_hour)
 
