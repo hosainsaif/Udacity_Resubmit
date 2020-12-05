@@ -1,5 +1,7 @@
 #The best lesson I learned here is that when debugging, print variables
 
+#This note is to assume that I'm my friend editing the code
+
 import time
 import pandas as pd
 import numpy as np
