@@ -1,9 +1,7 @@
-#This comment was added throgh the branch 'refactoring'. This code
-#helps you understand some business statistics about the bikehsare company
-
 #The best lesson I learned here is that when debugging, print variables
-#in each sequence/operation. That way, you will find out where you're messing
-#it up.
+
+#This note is to assume that I'm my friend editing the code
+
 import time
 import pandas as pd
 import numpy as np
